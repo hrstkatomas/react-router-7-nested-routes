@@ -30,7 +30,7 @@ function Dashboard() {
                     <Route path="*" element={<Dashboard/>}/>
                 </Route>
 
-                <Route path="/" element={<Navigate to={"../home"}/>}/>
+                <Route path="*" element={<Navigate to={"../home"}/>}/>
             </Routes>
         </div>
     );
@@ -51,7 +51,7 @@ function App() {
                     <Route path="*" element={<Dashboard/>}/>
                 </Route>
 
-                <Route path="/" element={<Navigate to={"../home"}/>}/>
+                <Route path="*" element={<Navigate to={"../home"}/>}/>
             </Routes>
         </>
     )
